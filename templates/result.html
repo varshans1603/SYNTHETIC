@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fraud Detection Result</title>
+    <style>
+        body { font-family: Arial; padding: 30px; background-color: #f4f4f4; }
+        .container { background: white; padding: 20px; border-radius: 10px; max-width: 600px; margin: auto; }
+        .status { font-weight: bold; margin: 10px 0; }
+        .ok { color: green; }
+        .warn { color: orange; }
+        .error { color: red; }
+        ul { list-style-type: none; padding: 0; }
+        li { margin-bottom: 8px; }
+        a { margin-top: 20px; display: inline-block; text-decoration: none; color: blue; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Prediction Result</h2>
+        <p class="status {% if 'Legitimate' in result %}ok{% elif 'Not Found' in result %}warn{% else %}error{% endif %}">
+            {{ result }}
+        </p>
+
+        {% if details %}
+        <h3>Details Submitted</h3>
+        <ul>
+            <li><strong>Name:</strong> {{ details.get('Name', 'N/A') }}</li>
+            <li><strong>DOB:</strong> {{ details.get('DOB', 'N/A') }}</li>
+            <li><strong>Mobile:</strong> {{ details.get('Mobile', 'N/A') }}</li>
+            <li><strong>Gender:</strong> {{ details.get('Gender', 'N/A') }}</li>
+            <li><strong>Aadhaar:</strong> {{ details.get('Aadhaar', 'N/A') }}</li>
+            <li><strong>PAN:</strong> {{ details.get('PAN', 'N/A') }}</li>
+            <li><strong>Time:</strong> {{ details.get('Time', 'N/A') }}</li>
+        </ul>
+        {% endif %}
+        <a href="/">🔙 Verify Another</a>
+    </div>
+</body>
+</html>

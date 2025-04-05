@@ -1,0 +1,62 @@
+Timestamp,Name,DOB,Mobile,Gender,Aadhaar,pan,FraudScore,FraudDetected
+2025-04-05 02:45:44,allison hill,12-06-1979,1234567890,Other,104332181960,AFNAF9928N,0.01,✅ No Fraud Detected
+2025-04-05 02:46:37,allison hill,12-06-1979,1234567890,Other,104332181960,AFNAF9928N,0.01,✅ No Fraud Detected
+2025-04-05 02:47:25,allison hill,12-06-1979,1234567890,Other,104332181960,AFNAF9928N,0.01,✅ No Fraud Detected
+2025-04-05 02:50:33,allison hill,12-06-1979,1234567890,male,104332181960,AFNAF9928N,0.01,✅ No Fraud Detected
+2025-04-05 03:06:48,allison hill,12-06-1979,1234567890,male,104332181960,AFNAF9928N,0.01,✅ No Fraud Detected
+2025-04-05 04:04:59,allison hill,12-06-1979,1234567890,Other,104332181960,AFNAF9928N,0.01,✅ No Fraud Detected
+2025-04-05 04:34:38,allison hillk,12-06-1979,1234567890,male,104332181960,AFNAF9928N,0.01,✅ No Fraud Detected,25.0,Name mismatch
+2025-04-05 04:34:59,allison hill,12-06-1979,1234567890,male,104332181960,AFNAF9928N,0.01,✅ No Fraud Detected,0.0,None
+2025-04-05 04:35:29,allison hill,12-06-1979,9876543210,other,104332181960,AFNAF9928N,0.01,✅ No Fraud Detected,0.0,None
+2025-04-05 04:36:00,allison hill,12-06-1979,987658235,male,104332181960,AFNAF9928N,0.01,✅ No Fraud Detected,0.0,None
+2025-04-05 04:36:10,allison hillk,12-06-1979,987658235,male,104332181960,AFNAF9928N,0.01,✅ No Fraud Detected,25.0,Name mismatch
+2025-04-05 04:36:27,allison hill,12-06-1979,987658235,male,104332181960,AFNAF9928N,0.01,✅ No Fraud Detected,0.0,None
+2025-04-05 04:36:53,allison hill,12-06-1979,987658235,ma,104332186011,AFNAF9928N,0.01,✅ No Fraud Detected,25.0,Aadhaar not found in government records.
+2025-04-05 04:37:03,allison hill,12-06-1979,987658235,ma,104332186011,AF9928N,0.03,✅ No Fraud Detected,25.0,Aadhaar not found in government records.
+2025-04-05 04:40:31,allison hill,12-06-1979,987658235,ma,104332186011,AF9928N,0.03,❌ Fraud Detected,Aadhaar not found
+2025-04-05 04:41:18,allison hill,12-06-1979,1234567890,male,104332181960,AFNAF9928N,0.01,✅ Identity Verified,None
+2025-04-05 04:41:28,allison hillk,12-06-1979,1234567890,male,104332181960,AFNAF9928N,0.01,❌ Fraud Detected,Name mismatch
+2025-04-05 04:41:58,allison hill,12-06-1979,1234567890,Other,104332181960,AFNAF9928N,0.01,✅ Identity Verified,None
+2025-04-05 04:42:11,allison hill,12-06-1979,1234567890,Other,104332181961,AFNAF9928N,0.01,❌ Fraud Detected,Aadhaar not found
+2025-04-05 04:50:33,allison hill,12-06-1979,1234567890,male,104332181960,AFNAF9928N,0.01,❌ Fraud Detected,Gender mismatch
+2025-04-05 04:50:47,allison hill,12-06-1979,1234567890,other,104332181960,AFNAF9928N,0.01,✅ Identity Verified,None
+2025-04-05 04:51:03,allison hillk,12-06-1979,1234567890,other,104332181960,AFNAF9928N,0.01,❌ Fraud Detected,Name mismatch
+2025-04-05 04:51:17,allison hill,12-06-1978,1234567890,other,104332181960,AFNAF9928N,0.01,❌ Fraud Detected,DOB mismatch
+2025-04-05 04:51:28,allison hill,12-06-1979,1234567891,other,104332181960,AFNAF9928N,0.01,❌ Fraud Detected,Mobile mismatch
+2025-04-05 04:51:46,allison hill,12-06-1979,1234567890,other,104332181961,AFNAF9928N,0.01,❌ Fraud Detected,Aadhaar not found in records; Name cannot be verified; DOB cannot be verified; Mobile cannot be verified; Gender cannot be verified; PAN cannot be verified
+2025-04-05 04:52:21,allison hill,12-06-1979,1234567890,other,104332181960,AFNAF9928A,0.03,❌ Fraud Detected,PAN mismatch
+2025-04-05 04:52:37,allison hill,12-06-1979,1234567890,other,104332181960,AFNAF9928N,0.01,✅ Identity Verified,None
+2025-04-05 04:53:14,allison hill,12-06-1979,1234567890,other,104332181960,AFNAF9928N,0.01,✅ Identity Verified,None
+2025-04-05 04:53:22,allison hill,12-06-1979,1234567890,other,104332181961,AFNAF9928N,0.01,❌ Fraud Detected,Aadhaar not found in records; Name cannot be verified; DOB cannot be verified; Mobile cannot be verified; Gender cannot be verified; PAN cannot be verified
+2025-04-05 04:53:49,allison hill,12-06-1979,1234567891,other,104332181960,AFNAF9928N,0.01,❌ Fraud Detected,Mobile mismatch
+2025-04-05 04:55:04,allison hill,12-06-1979,1234567891,other,104332181960,AFNAF9928N,0.01,❌ Fraud Detected,Mobile mismatch
+2025-04-05 04:56:57,allison hill,12-06-1979,1234567891,other,104332181960,AFNAF9928N,0.01,❌ Fraud Detected,Mobile mismatch
+2025-04-05 04:58:44,allison hill,12-06-1979,1234567891,other,104332181960,AFNAF9928N,0.01,❌ Fraud Detected,Mobile mismatch
+2025-04-05 04:59:08,allison hill,12-06-1979,1234567890,other,104332181960,AFNAF9928N,0.01,✅ Identity Verified,None
+2025-04-05 04:59:23,allison hill,12-06-1979,1234567891,male,104332181960,AFNAF9928N,0.01,❌ Fraud Detected,Mobile mismatch; Gender mismatch
+2025-04-05 04:59:53,allison hill,12-06-1979,1234567890,male,104332181960,AFNAF9928N,0.01,❌ Fraud Detected,Gender mismatch
+2025-04-05 05:00:24,allison hill,12-06-1979,1234567890,other,104332181961,AFNAF9928N,0.01,❌ Fraud Detected,Aadhaar not found in records; Name cannot be verified; DOB cannot be verified; Mobile cannot be verified; Gender cannot be verified; PAN cannot be verified
+2025-04-05 05:37:28,allison hill,12-06-1979,1234567890,Other,104332181960,AFNAF9928N,✅ No Fraud Detected,
+2025-04-05 05:37:47,allison hill,12-06-1978,1234567890,Other,104332181960,AFNAF9928N,❌ Fraud Detected,DOB mismatch
+2025-04-05 05:38:13,allison hill,12-06-1979,1234567890,male,104332181960,AFNAF9928N,❌ Fraud Detected,Gender mismatch
+2025-04-05 05:44:54,allison hill,12-06-1979,1234567890,male,104332181960,AFNAF9928N,❌ Fraud Detected,Gender mismatch
+2025-04-05 05:45:11,allison hill,12-06-1979,1234567890,Other,104332181960,AFNAF9928N,✅ No Fraud Detected,
+2025-04-05 05:45:32,allison hillk,12-06-1979,1234567891,Other,104332181960,AFNAF9928N,❌ Fraud Detected,"Name mismatch, Mobile Number mismatch"
+2025-04-05 06:33:51,Allison Hill,12-06-1979,1234567890,male,104332181960,AFNAF9928N,100.00%,⚠️ Verification Failed
+2025-04-05 06:34:15,Allison Hill,12-06-1979,1234567890,male,104332181960,AFNAF9928N,100.00%,⚠️ Verification Failed
+2025-04-05 06:35:23,Allison Hill,12-06-1979,1234567890,male,104332181960,AFNAF9928N,100.00%,⚠️ Verification Failed
+2025-04-05 06:35:28,Allison Hill,12-06-1979,1234567890,male,104332181960,AFNAF9928N,100.00%,⚠️ Verification Failed
+2025-04-05 06:35:47,Allison Hill,12-06-1979,1234567890,male,104332181960,AFNAF9928N,100.00%,⚠️ Verification Failed
+2025-04-05 06:43:26,Allison Hill,12-06-1979,1234567890,male,104332181960,AFNAF9928N,98.56%,✅ No Fraud Detected
+2025-04-05 06:43:44,Allison Hill,12-06-1979,1234567890,Other,104332181960,AFNAF9928N,99.13%,✅ No Fraud Detected
+2025-04-05 06:45:42,Allison Hill,12-06-1979,1234567890,Other,104332181960,AFNAF9928N,99.13%,✅ No Fraud Detected
+2025-04-05 06:45:47,Allison Hill,12-06-1979,1234567890,Other,104332181960,AFNAF9928N,99.13%,✅ No Fraud Detected
+2025-04-05 06:45:52,Allison Hill,12-06-1979,1234567890,Other,104332181960,AFNAF9928N,99.13%,✅ No Fraud Detected
+2025-04-05 06:46:18,Allison Hill,12-06-1979,1234567890,male,104332181960,AFNAF9928N,98.56%,❌ Fraud Detected
+2025-04-05 06:46:36,Allison Hill,12-06-1979,1234567890,Other,104332181960,AFNAF9928N,99.13%,✅ No Fraud Detected
+2025-04-05 06:46:45,Allison Hillk,12-06-1979,1234567890,Other,104332181960,AFNAF9928N,99.13%,❌ Fraud Detected
+2025-04-05 06:46:55,Allison Hillk,12-06-1978,1234567890,Other,104332181960,AFNAF9928N,99.13%,❌ Fraud Detected
+Allison Hill,104332181960,AFNAF9928N,Fraud,Model error during prediction: 'numpy.ndarray' object has no attribute 'predict',2025-04-05 06:58:50
+Allison Hill,104332181960,AFNAF9928N,Fraud,Model error during prediction: 'numpy.ndarray' object has no attribute 'predict',2025-04-05 06:58:57
+Allison Hill,104332181960,AFNAF9928N,Fraud,Model error during prediction: 'numpy.ndarray' object has no attribute 'predict',2025-04-05 06:59:07
+Allison Hill,104332181960,AFNAF9928N,Fraud,Model error during prediction: 'numpy.ndarray' object has no attribute 'predict',2025-04-05 07:05:47

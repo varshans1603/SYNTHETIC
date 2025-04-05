@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# Logs and temporary files
+*.log
+*.csv
+log/
+*.png
+
+# Model files
+*.pkl
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VSCode settings
+.vscode/
+
+# Python environments
+.ipynb_checkpoints/
+
+# Flask cache
+instance/
+*.db
+
+# Pytest cache
+.pytest_cache/

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fraud Detection Form</title>
+</head>
+<body>
+    <h2>AI-Based Identity Verification</h2>
+    <form action="/predict" method="post">
+        <label>Name:</label><br>
+        <input type="text" name="name" required><br>
+        <label>Date of Birth:</label><br>
+        <input type="date" name="dob" required><br>
+        <label>Mobile:</label><br>
+        <input type="text" name="mobile" required><br>
+        <label>Gender:</label><br>
+        <select name="gender">
+            <option>Male</option>
+            <option>Female</option>
+            <option>Other</option>
+        </select><br>
+        <label>Aadhaar:</label><br>
+        <input type="text" name="aadhaar" required><br>
+        <label>PAN:</label><br>
+        <input type="text" name="pan" required><br><br>
+        <input type="submit" value="Verify Identity">
+    </form>
+</body>
+</html>
